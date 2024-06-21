@@ -15,9 +15,9 @@ const users = [
   ];
 
 
-  //if theres at least one user older than 18 it return true
+  //if every user older than 18 it return true
   
-  const hasChilderen = users.some((user)=>{
+  const hasChilderen = users.every((user)=>{
     return user.age > 18
   })
 
